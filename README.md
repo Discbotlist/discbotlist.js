@@ -1,14 +1,11 @@
-# vcodes.js
-<a href="https://vcodes.xyz/dc" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
-**Support:** [https://vcodes.xyz/dc](https://vcodes.xyz/dc) <br>
-**NPM:** [npmjs.com/package/vcodes.js](https://www.npmjs.com/package/vcodes.js)<br>
+# discbotlist.js
 
 ## Installation
-*If you have trouble with the installation, please feel free to visit our [discord](https://vcodes.xyz/dc) address.*
-- `npm i vcodes.js`
+*If you have trouble with the installation, please feel free to visit our [discord](https://bot-list.zt0ht.ml/dc) address.*
+- `npm i discbotlist`
 
 ```js
-const vCodes = require("vcodes.js");
+const discbotlist = require("discbotlist.js");
 const dbl = new vCodes("TOKEN-HERE", client);
 
 client.on("ready", async () => {

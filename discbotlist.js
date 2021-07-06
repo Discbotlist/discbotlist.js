@@ -7,7 +7,7 @@ module.exports = class VOID {
   }
 
   serverCount(message) {
-  fetch(`https://vcodes.xyz/api/bots/stats`, {
+  fetch(`https://bot-list.zt0ht.repl.co/api/bots/stats`, {
         method: 'POST',
         headers: { 
           'serverCount': this.client.guilds.cache.size,
@@ -19,14 +19,14 @@ module.exports = class VOID {
   }
   
   async search(id) {
-  return await fetch(`https://vcodes.xyz/api/bots/${id}`, {
+  return await fetch(`https://bot-list.zt0ht.repl.co/api/bots/${id}`, {
         method: 'GET'
     })
     .then(res => res.json()).then(json => json);
   }
   
   async hasVoted(id) {
-  return await fetch(`https://vcodes.xyz/api/bots/check/${id}`, {method: 'GET',headers: { 
+  return await fetch(`https://bot-list.zt0ht.repl.coz/api/bots/check/${id}`, {method: 'GET',headers: { 
     'Content-Type': 'application/json', 'Authorization': this.token
   }
   }).then(res => res.json()).then(async json => json.voted);

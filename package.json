@@ -1,7 +1,7 @@
 {
-  "name": "vcodes.js",
+  "name": "discbotlist.js",
   "version": "0.0.1-alpha",
-  "description": "A official vcodes.xyz api.",
+  "description": "A official discbotlist api.",
   "main": "vcodes.js",
   "scripts": {
     "test": "!vote"
@@ -15,7 +15,7 @@
     "list",
     "discord",
     "dbl",
-    "vcodes",
+    "discbotlist",
     "api",
     "bots",
     "vote",
